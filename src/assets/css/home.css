@@ -1,0 +1,171 @@
+
+/* CONTAINER PRINCIPAL */
+
+.container {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* TÍTULO */
+
+.home {
+    text-align: center;
+    margin: 0 0 55px;
+}
+
+.Home-title {
+    max-width: 900px;
+    margin: 0 auto;
+
+    line-height: 1.2;
+    font-family: 'Vexa-font', sans-serif;
+    font-size: 32px;
+    color: #FFA7EC;
+}
+
+/* CARDS*/
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+
+    width: 100%;
+    padding: 0 0 10px;
+    box-sizing: border-box;
+
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+/* CARD INDIVIDUAL*/
+
+.card {
+    flex: 1 0 0;
+    min-width: 0;
+
+    border-radius: 15px;
+    overflow: hidden;
+    background: #242323;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/*IMAGENS*/
+
+.card-image {
+    display: block;
+
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+/*CONTEÚDO*/
+
+.card-content {
+    padding: 20px 22px 25px;
+}
+
+/* Títulos dos cards */
+
+.card-content h2 {
+    margin: 0 0 15px;
+
+    font-family: 'Vexa-font', sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+
+    color: #FFA7EC;
+}
+
+/* Textos dos cards */
+
+.card-content p {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+
+    overflow-wrap: break-word;
+}
+
+/* TELAS MENORES */
+
+@media (max-width: 800px) {
+    .container {
+        padding-top: 35px;
+    }
+
+    .home {
+        margin-bottom: 35px;
+        padding: 0 18px;
+    }
+
+    .Home-title {
+        font-size: 28px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        padding: 0 18px 10px;
+        gap: 20px;
+    }
+
+    .card {
+        flex: 1 1 280px;
+    }
+
+    .card-image {
+        height: 220px;
+    }
+}
+
+/* CELULARES*/
+
+@media (max-width: 500px) {
+    .cards {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        width: 100%;
+        flex: 0 0 auto;
+    }
+
+    .card-image {
+        height: 210px;
+    }
+}
+
+/*ACESSIBILIDADE*/
+
+@media (prefers-reduced-motion: reduce) {
+    .card {
+        transition: none;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+}

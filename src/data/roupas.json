@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "titulo": "Calça Jeans Reta",
+    "autor": "Moda Casual",
+    "categoria": "Calça",
+    "ano": 2026,
+    "nota": 4.8,
+    "capa": "./assets/calca-jeans-reta.jpg",
+    "status": "Disponível",
+    "descricao": "Calça jeans de corte reto, versátil e fácil de combinar com diferentes estilos.",
+    "tags": [
+      "jeans",
+      "casual",
+      "básico"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Calça Wide Leg",
+    "autor": "Moda Casual",
+    "categoria": "Calça",
+    "ano": 2026,
+    "nota": 4.7,
+    "capa": "./assets/calca-wide-leg.jpg",
+    "status": "Disponível",
+    "descricao": "Calça de modelagem ampla que proporciona um visual moderno e confortável.",
+    "tags": [
+      "wide leg",
+      "moderna",
+      "confortável"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Calça Cargo",
+    "autor": "Moda Urbana",
+    "categoria": "Calça",
+    "ano": 2026,
+    "nota": 4.6,
+    "capa": "./assets/calca-cargo.jpg",
+    "status": "Disponível",
+    "descricao": "Calça cargo com bolsos laterais e estilo urbano, ideal para produções casuais.",
+    "tags": [
+      "cargo",
+      "urbano",
+      "casual"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Calça Alfaiataria",
+    "autor": "Moda Elegante",
+    "categoria": "Calça",
+    "ano": 2026,
+    "nota": 4.9,
+    "capa": "./assets/calca-alfaiataria.jpg",
+    "status": "Disponível",
+    "descricao": "Calça de alfaiataria com corte estruturado, indicada para produções elegantes e sofisticadas.",
+    "tags": [
+      "alfaiataria",
+      "elegante",
+      "sofisticado"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Calça Jogger",
+    "autor": "Moda Esportiva",
+    "categoria": "Calça",
+    "ano": 2026,
+    "nota": 4.5,
+    "capa": "./assets/calca-jogger.jpg",
+    "status": "Disponível",
+    "descricao": "Calça jogger confortável com ajuste na cintura e na barra, ideal para looks descontraídos.",
+    "tags": [
+      "jogger",
+      "confortável",
+      "esportivo"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Blusa Básica",
+    "autor": "Moda Casual",
+    "categoria": "Blusa",
+    "ano": 2026,
+    "nota": 4.8,
+    "capa": "./assets/blusa-basica.jpg",
+    "status": "Disponível",
+    "descricao": "Blusa básica e versátil para compor diferentes combinações no dia a dia.",
+    "tags": [
+      "básico",
+      "casual",
+      "versátil"
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Blusa Cropped",
+    "autor": "Moda Jovem",
+    "categoria": "Blusa",
+    "ano": 2026,
+    "nota": 4.6,
+    "capa": "./assets/blusa-cropped.jpg",
+    "status": "Disponível",
+    "descricao": "Blusa cropped de estilo moderno, ideal para combinações descontraídas.",
+    "tags": [
+      "cropped",
+      "moderna",
+      "jovem"
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Blusa de Manga Longa",
+    "autor": "Moda Casual",
+    "categoria": "Blusa",
+    "ano": 2026,
+    "nota": 4.7,
+    "capa": "./assets/blusa-manga-longa.jpg",
+    "status": "Disponível",
+    "descricao": "Blusa de manga longa com design confortável para dias mais frescos.",
+    "tags": [
+      "manga longa",
+      "casual",
+      "confortável"
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Blusa de Tricô",
+    "autor": "Moda Inverno",
+    "categoria": "Blusa",
+    "ano": 2026,
+    "nota": 4.9,
+    "capa": "./assets/blusa-trico.jpg",
+    "status": "Disponível",
+    "descricao": "Blusa de tricô confortável e aconchegante, perfeita para composições de inverno.",
+    "tags": [
+      "tricô",
+      "inverno",
+      "aconchegante"
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Blusa Social",
+    "autor": "Moda Elegante",
+    "categoria": "Blusa",
+    "ano": 2026,
+    "nota": 4.8,
+    "capa": "./assets/blusa-social.jpg",
+    "status": "Disponível",
+    "descricao": "Blusa social de corte elegante para ocasiões formais ou produções sofisticadas.",
+    "tags": [
+      "social",
+      "elegante",
+      "formal"
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "Vestido Midi",
+    "autor": "Moda Elegante",
+    "categoria": "Vestido",
+    "ano": 2026,
+    "nota": 4.8,
+    "capa": "./assets/vestido-midi.jpg",
+    "status": "Disponível",
+    "descricao": "Vestido midi de comprimento intermediário, combinando elegância e praticidade.",
+    "tags": [
+      "midi",
+      "elegante",
+      "feminino"
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "Vestido Longo",
+    "autor": "Moda Festa",
+    "categoria": "Vestido",
+    "ano": 2026,
+    "nota": 4.9,
+    "capa": "./assets/vestido-longo.jpg",
+    "status": "Disponível",
+    "descricao": "Vestido longo com visual sofisticado para ocasiões especiais e eventos.",
+    "tags": [
+      "longo",
+      "festa",
+      "sofisticado"
+    ]
+  },
+  {
+    "id": 13,
+    "titulo": "Vestido Floral",
+    "autor": "Moda Casual",
+    "categoria": "Vestido",
+    "ano": 2026,
+    "nota": 4.6,
+    "capa": "./assets/vestido-floral.jpg",
+    "status": "Disponível",
+    "descricao": "Vestido com estampa floral e estilo leve, ideal para produções casuais.",
+    "tags": [
+      "floral",
+      "casual",
+      "estampado"
+    ]
+  },
+  {
+    "id": 14,
+    "titulo": "Vestido Preto",
+    "autor": "Moda Clássica",
+    "categoria": "Vestido",
+    "ano": 2026,
+    "nota": 4.9,
+    "capa": "./assets/vestido-preto.jpg",
+    "status": "Disponível",
+    "descricao": "Vestido preto clássico e versátil para diferentes ocasiões.",
+    "tags": [
+      "preto",
+      "clássico",
+      "versátil"
+    ]
+  },
+  {
+    "id": 15,
+    "titulo": "Vestido Chemise",
+    "autor": "Moda Casual",
+    "categoria": "Vestido",
+    "ano": 2026,
+    "nota": 4.7,
+    "capa": "./assets/vestido-chemise.jpg",
+    "status": "Disponível",
+    "descricao": "Vestido chemise inspirado em camisas tradicionais, proporcionando um visual moderno e confortável.",
+    "tags": [
+      "chemise",
+      "casual",
+      "moderno"
+    ]
+  },
+  {
+    "id": 16,
+    "titulo": "Short Jeans",
+    "autor": "Moda Casual",
+    "categoria": "Short",
+    "ano": 2026,
+    "nota": 4.8,
+    "capa": "./assets/short-jeans.jpg",
+    "status": "Disponível",
+    "descricao": "Short jeans clássico e versátil para composições casuais e descontraídas.",
+    "tags": [
+      "jeans",
+      "casual",
+      "básico"
+    ]
+  },
+  {
+    "id": 17,
+    "titulo": "Short Alfaiataria",
+    "autor": "Moda Elegante",
+    "categoria": "Short",
+    "ano": 2026,
+    "nota": 4.7,
+    "capa": "./assets/short-alfaiataria.jpg",
+    "status": "Disponível",
+    "descricao": "Short de alfaiataria com corte elegante, ideal para produções modernas.",
+    "tags": [
+      "alfaiataria",
+      "elegante",
+      "moderno"
+    ]
+  },
+  {
+    "id": 18,
+    "titulo": "Short Esportivo",
+    "autor": "Moda Esportiva",
+    "categoria": "Short",
+    "ano": 2026,
+    "nota": 4.5,
+    "capa": "./assets/short-esportivo.jpg",
+    "status": "Disponível",
+    "descricao": "Short leve e confortável para atividades físicas e momentos de lazer.",
+    "tags": [
+      "esportivo",
+      "confortável",
+      "casual"
+    ]
+  },
+  {
+    "id": 19,
+    "titulo": "Short de Linho",
+    "autor": "Moda Verão",
+    "categoria": "Short",
+    "ano": 2026,
+    "nota": 4.8,
+    "capa": "./assets/short-linho.jpg",
+    "status": "Disponível",
+    "descricao": "Short de linho com tecido leve e visual sofisticado para dias quentes.",
+    "tags": [
+      "linho",
+      "verão",
+      "leve"
+    ]
+  },
+  {
+    "id": 20,
+    "titulo": "Short Cargo",
+    "autor": "Moda Urbana",
+    "categoria": "Short",
+    "ano": 2026,
+    "nota": 4.6,
+    "capa": "./assets/short-cargo.jpg",
+    "status": "Disponível",
+    "descricao": "Short cargo com bolsos laterais e estilo urbano para combinações descontraídas.",
+    "tags": [
+      "cargo",
+      "urbano",
+      "casual"
+    ]
+  }
+]

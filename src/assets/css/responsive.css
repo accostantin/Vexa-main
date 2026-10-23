@@ -1,0 +1,333 @@
+/* =====================================================================
+   RESPONSIVIDADE – VEXA
+   Carregado por último (App.jsx) para complementar, sem substituir, os
+   estilos de cada página. Só acrescenta ajustes em telas menores:
+   desktop (> 1024px) continua exatamente como estava.
+
+   Pontos de quebra: 1024 (tablet), 900, 768, 640/600, 480 (celular), 360.
+===================================================================== */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* ---------- Menu lateral (três barrinhas) ---------- */
+.sidebar {
+  width: min(360px, 85vw);
+  height: 100vh;
+  height: 100dvh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+@media (max-width: 600px) {
+  .sidebar-item {
+    height: 72px;
+    padding: 0 22px;
+    gap: 18px;
+    font-size: 15px;
+  }
+}
+
+/* Celular deitado: pouca altura */
+@media (max-height: 500px) {
+  .sidebar-item {
+    height: 56px;
+  }
+}
+
+/* ---------- Cabeçalhos (Lado A e Lado B) ---------- */
+@media (max-width: 900px) {
+  .header,
+  .header2 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px 16px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    padding: 0 16px;
+  }
+
+  .header2 {
+    padding: 12px 16px;
+  }
+
+  .header .titulo,
+  .header2 .titulo {
+    margin: 8px 0;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+  }
+
+  /* links descem para uma segunda linha, centralizados */
+  .header nav,
+  .header2 nav {
+    order: 3;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px 20px;
+    padding-bottom: 8px;
+  }
+
+  .header nav a,
+  .header2 nav a {
+    padding: 8px 4px; /* área de toque maior */
+  }
+
+  .btn-ladob {
+    width: auto;
+    min-width: 90px;
+    margin-left: 0;
+  }
+
+  .menu-btn {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+/* ---------- Campos de formulário: 16px evita o zoom automático do iOS ---------- */
+@media (max-width: 900px) {
+  input:not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}
+
+/* ---------- Banner do Lado A ---------- */
+@media (max-width: 640px) {
+  .banner-main {
+    margin-top: 24px;
+  }
+
+  /* o cartão deixa de cobrir a imagem e passa para baixo dela */
+  .banner-content {
+    position: static;
+    max-width: none;
+    margin-top: 12px;
+    box-sizing: border-box;
+  }
+}
+
+/* ---------- Notícias (Lado A) ---------- */
+@media (max-width: 900px) {
+  .conteudos-header {
+    padding: 0 18px;
+    box-sizing: border-box;
+  }
+
+  .conteudos-header h1 {
+    margin-top: 48px;
+  }
+
+  .conteudos-toolbar {
+    width: calc(100% - 36px);
+  }
+
+  .conteudos-visual-toggle {
+    justify-content: flex-start;
+  }
+
+  .conteudos-visual-button,
+  .conteudos-visual-button.active {
+    margin-left: 0;
+  }
+
+  .lista-conteudos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    padding: 0 12px 48px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 600px) {
+  .lista-conteudos {
+    grid-template-columns: 1fr;
+  }
+
+  .noticias-card {
+    margin: 0;
+  }
+
+  .noticias-card-conteudo p {
+    font-size: 16px;
+  }
+}
+
+/* ---------- Busca e filtros (Notícias e Lado B) ---------- */
+@media (max-width: 980px) {
+  .search-conteudos,
+  .search-bar-b {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .filtro-select select,
+  .conteudos-select-wrap select {
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  .lado-b-select-wrap {
+    justify-self: stretch;
+  }
+}
+
+/* ---------- Carrossel do Lado B ---------- */
+@media (max-width: 1000px) {
+  .Carrossel {
+    gap: 8px;
+  }
+
+  .imagem {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: clamp(180px, 56vw, 540px);
+    object-fit: cover;
+  }
+
+  .botaoesquerda,
+  .botaodireita {
+    float: none;
+    flex: 0 0 auto;
+    min-width: 40px;
+    min-height: 40px;
+  }
+}
+
+/* ---------- Conteúdos / Sobre e Canais de ajuda ---------- */
+@media (max-width: 900px) {
+  /* sem a altura de tela cheia, a sobreposição com margem negativa não é mais necessária */
+  .hero-sobre {
+    min-height: auto;
+    padding-bottom: 32px;
+  }
+
+  .main-sobre-conteudo h2 {
+    margin-top: 32px;
+  }
+
+  .diretorio-detalhes span {
+    display: block;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-sobre {
+    padding: 40px 16px 24px;
+  }
+
+  .hero-ajuda-conteudo h1 {
+    margin-left: 20px;
+    padding-top: 40px;
+  }
+
+  .hero-ajuda-conteudo .texto-ajuda1 {
+    margin-left: 20px;
+  }
+
+  /* botões lado a lado passam a empilhar */
+  .linha-tecnologias,
+  .linha-tecnologias2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .painel-projeto .botao1,
+  .painel-projeto .botao2,
+  .painel-projeto2 .botao-ajuda,
+  .painel-projeto2 .botao-ajuda2 {
+    width: min(100%, 320px);
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  .main-sobre-conteudo h2,
+  .Ciclo-violencia,
+  .main-texto1,
+  .main-texto2,
+  .main-texto3,
+  .main-texto4,
+  .main-texto6,
+  .tipos-violencia,
+  .ciclo,
+  .ciclo-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Ciclo-violencia {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-sobre h1,
+  .hero-ajuda-conteudo h1 {
+    font-size: 26px;
+  }
+
+  .hero-sobre .texto1,
+  .main-texto1,
+  .main-texto2,
+  .main-texto3,
+  .main-texto4,
+  .main-texto6,
+  .tipos-violencia,
+  .ciclo,
+  .ciclo-1 {
+    text-align: left;
+  }
+}
+
+/* ---------- Login, cadastro e perfil ---------- */
+@media (max-width: 480px) {
+  .cadastro-container {
+    width: 94%;
+    min-height: auto;
+    padding: 24px 0;
+  }
+
+  .cadastro-card {
+    width: min(380px, 88%);
+    padding: 28px 20px;
+  }
+}
+
+/* ---------- Rodapé ---------- */
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 16px 24px;
+  }
+
+  .footer-social {
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+  .language-button {
+    margin-left: 0;
+  }
+}
+
+/* ---------- Telas muito estreitas ---------- */
+@media (max-width: 360px) {
+  .header nav,
+  .header2 nav {
+    gap: 2px 12px;
+  }
+
+  .conteudos-header h1 {
+    font-size: 28px;
+  }
+}

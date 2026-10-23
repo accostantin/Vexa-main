@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titulo": "STF amplia alcance da Lei Maria da Penha",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Supremo Tribunal Federal amplia a aplicação da Lei Maria da Penha para casos de violência de gênero contra mulheres mesmo fora do ambiente doméstico.",
+    "tags": [
+      "Lei Maria da Penha",
+      "STF",
+      "violência de gênero"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-decide-ampliar-alcance-da-lei-da-maria-da-penha"
+  },
+  {
+    "id": 2,
+    "titulo": "Agressões domésticas contra mulheres crescem em dias de futebol",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Estudo aponta aumento de agressões domésticas e ameaças contra mulheres em dias de jogos de futebol em cinco capitais brasileiras.",
+    "tags": [
+      "violência doméstica",
+      "futebol",
+      "agressão"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/agressoes-domesticas-contra-mulheres-crescem-289-em-dias-de-futebol"
+  },
+  {
+    "id": 3,
+    "titulo": "Câmara municipal é principal lugar onde vereadoras sofrem agressões",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Pesquisa revela que grande parte das vereadoras entrevistadas já sofreu algum tipo de violência política durante o exercício do mandato.",
+    "tags": [
+      "violência política",
+      "mulheres na política",
+      "gênero"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/camara-municipal-e-principal-lugar-onde-vereadoras-sofrem-agressoes"
+  },
+  {
+    "id": 4,
+    "titulo": "Violência contra a mulher: 7,5 mil agentes serão capacitados",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Milhares de agentes de segurança pública participaram de uma mobilização nacional voltada ao atendimento de mulheres vítimas de violência.",
+    "tags": [
+      "segurança pública",
+      "proteção",
+      "violência contra a mulher"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/violencia-contra-mulher-75-mil-agentes-serao-capacitados"
+  },
+  {
+    "id": 5,
+    "titulo": "Medidas protetivas para mulheres crescem 43% no Rio",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Dados do Tribunal de Justiça do Rio de Janeiro mostram crescimento expressivo na concessão de medidas protetivas de urgência.",
+    "tags": [
+      "medidas protetivas",
+      "Rio de Janeiro",
+      "violência doméstica"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/medidas-protetivas-para-mulheres-crescem-43-no-estado-do-rio"
+  },
+  {
+    "id": 6,
+    "titulo": "TSE retoma condenação de vereador por violência política de gênero",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Tribunal Superior Eleitoral restabelece condenação de vereador por violência política de gênero contra uma vereadora.",
+    "tags": [
+      "TSE",
+      "violência política",
+      "mulheres"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/tse-retoma-condenacao-de-vereador-por-violencia-politica-de-genero"
+  },
+  {
+    "id": 7,
+    "titulo": "Congresso aprova medidas de divulgação em massa do Ligue 180",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Projeto aprovado pelo Congresso prevê divulgação em larga escala do Ligue 180, canal de atendimento e denúncia de violência contra a mulher.",
+    "tags": [
+      "Ligue 180",
+      "denúncia",
+      "proteção"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/congresso-aprova-medidas-de-divulgacao-em-massa-do-ligue-180"
+  },
+  {
+    "id": 8,
+    "titulo": "Violência contra a mulher continua sendo um desafio no Brasil",
+    "autor": "Agência Brasil",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "Dados recentes reforçam a necessidade de políticas públicas de prevenção e combate à violência contra mulheres no Brasil.",
+    "tags": [
+      "feminicídio",
+      "estatísticas",
+      "Brasil"
+    ],
+    "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-08/violencia-contra-mulher-75-mil-agentes-serao-capacitados"
+  },
+  {
+    "id": 9,
+    "titulo": "ONU Mulheres monitora violência política de gênero no Brasil",
+    "autor": "ONU Mulheres",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "ONU Mulheres reúne instituições brasileiras para acompanhar dados e fortalecer a prevenção da violência política contra mulheres.",
+    "tags": [
+      "ONU Mulheres",
+      "violência política",
+      "eleições"
+    ],
+    "link": "https://brasil.unwomen.org/pt-br/stories/noticia/2026/08/segunda-reuniao-da-sala-de-situacao"
+  },
+  {
+    "id": 10,
+    "titulo": "Violência sexual contra crianças e adolescentes preocupa no Brasil",
+    "autor": "UNICEF",
+    "categoria": "Brasil",
+    "ano": 2026,
+    "descricao": "UNICEF alerta para os índices de violência sexual contra crianças e adolescentes no Brasil, com impacto especialmente grave sobre meninas.",
+    "tags": [
+      "violência sexual",
+      "Brasil",
+      "meninas"
+    ],
+    "link": "https://www.unicef.org/brazil/comunicados-de-imprensa/18-de-maio-violencia-sexual-contra-criancas-e-adolescentes-segue-preocupante-no-brasil"
+  },
+  {
+    "id": 11,
+    "titulo": "Mulheres e meninas enfrentam violência no Sudão",
+    "autor": "Reuters",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "Relatos divulgados pela ONU mostram que mulheres e meninas no Sudão enfrentam riscos de violência de gênero durante a busca por recursos básicos.",
+    "tags": [
+      "Sudão",
+      "guerra",
+      "violência sexual"
+    ],
+    "link": "https://www.reuters.com/world/africa/women-sudans-al-obeid-face-drone-attacks-rape-when-fetching-water-un-says-2026-07-24/"
+  },
+  {
+    "id": 12,
+    "titulo": "Uma em cada três mulheres da União Europeia sofreu violência",
+    "autor": "Reuters",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "Pesquisa europeia aponta que cerca de uma em cada três mulheres na União Europeia sofreu violência física ou sexual ao longo da vida.",
+    "tags": [
+      "Europa",
+      "violência física",
+      "violência sexual"
+    ],
+    "link": "https://www.reuters.com/world/one-three-eu-women-face-violence-most-cases-unreported-survey-finds-2026-03-03/"
+  },
+  {
+    "id": 13,
+    "titulo": "Afeganistão amplia restrições e riscos para mulheres",
+    "autor": "Reuters",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "ONU denuncia novas medidas no Afeganistão que aprofundam a repressão e aumentam os riscos enfrentados por mulheres e meninas.",
+    "tags": [
+      "Afeganistão",
+      "direitos das mulheres",
+      "violência"
+    ],
+    "link": "https://www.reuters.com/world/asia-pacific/un-rights-chief-says-taliban-decree-expands-executions-deepens-repression-2026-02-26/"
+  },
+  {
+    "id": 14,
+    "titulo": "Mais de 38 mil mulheres e meninas foram mortas em Gaza",
+    "autor": "ONU Mulheres",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "ONU Mulheres informou que mais de 38 mil mulheres e meninas foram mortas em Gaza entre outubro de 2023 e dezembro de 2025.",
+    "tags": [
+      "Gaza",
+      "conflito",
+      "mulheres"
+    ],
+    "link": "https://brasil.unwomen.org/pt-br/stories/noticia/2026/04/mais-de-38000-mulheres-e-meninas-foram-assassinadas-em-gaza-entre-outubro-de-2023-e-dezembro-de-2025"
+  },
+  {
+    "id": 15,
+    "titulo": "Senegal divulga pesquisa nacional sobre violência contra mulheres",
+    "autor": "ONU Mulheres",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "Pesquisa nacional do Senegal revelou dados sobre violência física, psicológica, sexual e econômica contra mulheres.",
+    "tags": [
+      "Senegal",
+      "violência doméstica",
+      "pesquisa"
+    ],
+    "link": "https://data.unwomen.org/features/senegals-violence-against-women-survey-fuels-advocacy-and-policy-change"
+  },
+  {
+    "id": 16,
+    "titulo": "Violência de gênero online preocupa internacionalmente",
+    "autor": "ONU Mulheres",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "A violência de gênero no ambiente digital é apontada como um problema crescente que afeta mulheres e meninas em diferentes países.",
+    "tags": [
+      "violência digital",
+      "internet",
+      "gênero"
+    ],
+    "link": "https://data.unwomen.org/stories"
+  },
+  {
+    "id": 17,
+    "titulo": "Violência online contra mulheres jornalistas cresce",
+    "autor": "ONU Mulheres",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "Relatório internacional aponta formas cada vez mais sofisticadas de violência online contra mulheres jornalistas, ativistas e profissionais da mídia.",
+    "tags": [
+      "violência digital",
+      "jornalistas",
+      "mulheres"
+    ],
+    "link": "https://brasil.unwomen.org/pt-br/stories/noticia/2026/05/relatorio-ponto-de-virada"
+  },
+  {
+    "id": 18,
+    "titulo": "Mulheres enfrentam riscos durante deslocamentos no Líbano",
+    "autor": "ONU Mulheres",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "ONU Mulheres alerta para os riscos de exploração, abuso e violência de gênero enfrentados por mulheres e meninas deslocadas no Líbano.",
+    "tags": [
+      "Líbano",
+      "conflito",
+      "violência de gênero"
+    ],
+    "link": "https://www.unwomen.org/en/news-stories/press-briefing/2026/03/press-briefing-by-un-women-on-the-situation-for-women-and-girls-in-lebanon"
+  },
+  {
+    "id": 19,
+    "titulo": "OMS atualiza dados globais sobre violência contra mulheres",
+    "autor": "Organização Mundial da Saúde",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "A Organização Mundial da Saúde reúne dados e estimativas sobre a prevalência da violência contra mulheres em diferentes regiões do mundo.",
+    "tags": [
+      "OMS",
+      "dados",
+      "violência contra mulheres"
+    ],
+    "link": "https://www.who.int/health-topics/violence-against-women"
+  },
+  {
+    "id": 20,
+    "titulo": "Violência contra mulheres continua sendo uma crise global",
+    "autor": "UNFPA",
+    "categoria": "Internacional",
+    "ano": 2026,
+    "descricao": "Organizações internacionais destacam que a violência contra mulheres permanece uma das principais violações de direitos humanos no mundo.",
+    "tags": [
+      "violência global",
+      "direitos humanos",
+      "mulheres"
+    ],
+    "link": "https://www.unfpa.org/press/lifetime-toll-840-million-women-faced-partner-or-sexual-violence"
+  }
+]

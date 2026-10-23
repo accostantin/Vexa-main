@@ -1,0 +1,337 @@
+.profile-section {
+    min-height: 100vh;
+    width: 100%;
+  
+    padding: 35px 7% 25px;
+  
+    box-sizing: border-box;
+  
+    color: white;
+  
+    font-family: Arial, Helvetica, sans-serif;
+      background: #323232;
+  }  
+  
+  /* =========================
+     TÍTULO
+  ========================= */
+  
+  .profile-title {
+    text-align: center;
+  
+    margin: 25px 0 40px;
+  }
+  
+  .profile-title h1 {
+    margin: 0;
+
+    font-family: 'Vexa-font';
+  
+    font-size: 32px;
+  
+    margin-top: 100px;
+    font-weight: 700;
+    color: #FFA7EC;
+  }
+  
+  
+  
+  /* =========================
+     CONTAINER
+  ========================= */
+  
+  .contact-container {
+    max-width: 1000px;
+  
+    margin: 0 auto;
+  
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr;
+  
+    gap: 30px;
+  
+    align-items: stretch;
+  }
+  
+  
+  /* =========================
+     CARD ESQUERDO
+  ========================= */
+  
+  .contact-info {
+    padding: 35px 30px;
+  
+    border-radius: 15px;
+  
+        background: #242323;
+  
+    backdrop-filter: blur(10px);
+  
+    box-shadow:
+      0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .contact-info h2 {
+    margin: 0;
+
+    font-family: 'Vexa-font';
+  
+    font-size: 22px;
+
+    color: #ffffff;
+  }
+  
+  .title-line {
+    width: 50px;
+    height: 5px;
+  
+    margin: 12px 0 25px;
+  
+    background: white;
+  }
+  
+  
+  /* =========================
+     PERFIL
+  ========================= */
+  
+  .person {
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 15px;
+  
+    margin-bottom: 20px;
+  }
+  
+  .person img {
+    width: 75px;
+    height: 75px;
+  
+    border-radius: 50%;
+  
+    object-fit: cover;
+  
+    border: 2px solid #FFA7EC;
+  }
+  
+  .person h3 {
+    margin: 0 0 5px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .person p {
+    margin: 0;
+  
+    font-size: 13px;
+  
+    opacity: 0.8;
+  }
+  
+  .second-person {
+    margin-top: 30px;
+  }
+  
+  
+  /* =========================
+     CONTATOS
+  ========================= */
+  
+  .contact-item {
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 15px;
+  
+    margin: 15px 0;
+  }
+  
+  .contact-item span {
+    width: 30px;
+  
+    font-size: 22px;
+  
+    text-align: center;
+  }
+  
+  .contact-item p {
+    margin: 0;
+  
+    font-size: 14px;
+  }
+  
+  
+  /* =========================
+     FORMULÁRIO
+  ========================= */
+  
+  
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 35px 30px;
+
+    background: #242323;
+    border: 1px solid rgba(255, 167, 236, 0.10);
+    border-radius: 18px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+    box-sizing: border-box;
+}
+
+/* Campos de nome e e-mail */
+
+.contact-form input {
+    width: 100%;
+    min-height: 56px;
+    padding: 16px 18px;
+
+    box-sizing: border-box;
+
+    background: #2b2928;
+    color: #fffafc;
+
+    border: 1px solid rgba(255, 167, 236, 0.16);
+    border-radius: 10px;
+
+    outline: none;
+
+    font-family: inherit;
+    font-size: 15px;
+
+    transition:
+        border-color 0.25s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Área de mensagem */
+
+.contact-form textarea {
+    width: 100%;
+    height: 220px;
+    padding: 18px;
+
+    box-sizing: border-box;
+    resize: vertical;
+
+    background: #2b2928;
+    color: #fffafc;
+
+    border: 1px solid rgba(255, 167, 236, 0.16);
+    border-radius: 10px;
+
+    outline: none;
+
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.6;
+
+    transition:
+        border-color 0.25s ease,
+        background 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Texto de orientação dos campos */
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #c8c0c6;
+    opacity: 1;
+}
+
+/* Destaque ao selecionar um campo */
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background: #302b2e;
+
+    border-color: #CB1D85;
+
+    box-shadow: 0 0 0 3px rgba(203, 29, 133, 0.12);
+}
+
+/* Interação ao passar o mouse */
+
+.contact-form input:hover:not(:focus),
+.contact-form textarea:hover:not(:focus) {
+    border-color: rgba(255, 167, 236, 0.35);
+}
+
+/* Espaçamento no celular */
+
+@media (max-width: 800px) {
+    .contact-form {
+        padding: 25px 20px;
+        gap: 16px;
+    }
+
+    .contact-form textarea {
+        height: 180px;
+    }
+}
+  
+  /* =========================
+     BOTÃO
+  ========================= */
+  
+  .contact-form button {
+    width: 130px;
+  
+    padding: 12px 18px;
+  
+    border: none;
+  
+    border-radius: 20px;
+    background: linear-gradient(
+      90deg,
+      hsl(313, 94%, 59%),
+      #CB1D85 
+    );
+  
+    color: white;
+  
+    font-size: 13px;
+  
+    cursor: pointer;
+  
+    transition: 0.3s;
+    font-family: 'Vexa-font', sans-serif;
+    margin-left:10px;
+  }
+  
+  .contact-form button:hover {
+    transform: translateY(-2px);
+  
+    box-shadow:
+      0 5px 15px rgba(255, 8, 222, 0.76);
+  }
+  
+  
+  /* =========================
+     RESPONSIVO
+  ========================= */
+  
+  @media (max-width: 800px) {
+
+  
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .contact-form {
+      padding: 0;
+    }
+  
+    .profile-title h1 {
+      font-size: 28px;
+    }
+  }
