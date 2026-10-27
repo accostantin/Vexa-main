@@ -1,32 +1,44 @@
-import { NavLink } from 'react-router-dom'
-import Button from './btn.jsx'
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import ButtonLadoB from './btn.jsx';
+import Sidebar from './sidebar.jsx';
 
-function Header2() {
+
+function Header({ onMenuClick }) {
+
+  // Páginas que já controlam o próprio Sidebar (ex.: Lado A) passam onMenuClick.
+  // As demais (Notícias, Dashboard, Conteúdos) usam o menu embutido aqui.
+  const [menuAberto, setMenuAberto] = useState(false);
+
   return (
-    <header className="header2">
-      <div className="logo">
-        <h1 className="titulo">VEXA</h1>
-      </div>
-      <nav>
-        <NavLink to="/lado-b" className={({ isActive }) => (isActive ? 'ativo' : '')}>
-          Home 
-        </NavLink>
-        <NavLink to="/lado-b/acessorios" className={({ isActive }) => (isActive ? 'ativo' : '')}>
-          Acessórios 
-        </NavLink>
-        <NavLink to="/lado-b/nova-colecao" className={({ isActive }) => (isActive ? 'ativo' : '')}>
-          Nova Coleção 
-        </NavLink>
-        <NavLink to="/lado-b/contato" className={({ isActive }) => (isActive ? 'ativo' : '')}>
-          Contato 
-        </NavLink>
-        <NavLink to="/lado-b/sobre" className={({ isActive }) => (isActive ? 'ativo' : '')}>
-          Sobre nós 
-        </NavLink>
-      </nav>
-      <Button />
-    </header>
-  )
+    <>
+      <header className="header">
+
+      
+
+        <div className="logo">
+          <h1 className="titulo">VEXA</h1>
+        </div>
+
+        <nav>
+          <NavLink to="#">Partes de cima</NavLink>
+          <NavLink to="#">Partes de baixo</NavLink>
+          <NavLink to="#">Calçados</NavLink>
+          <NavLink to="#">Acessórios</NavLink>
+        </nav>
+
+        <ButtonLadoB />
+
+      </header>
+
+      {!onMenuClick && (
+        <Sidebar
+          isOpen={menuAberto}
+          onClose={() => setMenuAberto(false)}
+        />
+      )}
+    </>
+  );
 }
 
-export default Header2
+export default Header;

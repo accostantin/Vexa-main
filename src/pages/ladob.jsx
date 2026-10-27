@@ -5,6 +5,7 @@ import SearchBarB from '../components/SearchBarB.jsx'
 import FiltroCategoria from '../components/FiltroCategoria.jsx'
 import ListaRoupa from '../components/ListaRoupa.jsx'
 import roupasData from '../data/roupas.json'
+import Footer from '../components/footer.jsx'
 
 const OPCOES_VISUAIS = ['Todos', 'Favoritos']
 
@@ -78,6 +79,8 @@ function LadoB({ favoritos = [], aoAlternarFavorito = () => {} }) {
           aoAlternarFavorito={aoAlternarFavorito}
         />
       </main>
+
+      <Footer />
     </div>
   )
 }
