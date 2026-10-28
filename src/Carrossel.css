@@ -39,11 +39,36 @@ main {
     border-radius: 12px;
   }
 
-  .botaodireita{
-    float: right;
-    
-  }
+ 
+.botaoesquerda,
+.botaodireita {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #FFA7EC;
+  border-radius: 50%;
+  background: #490839;
+  color: #FFA7EC;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
 
-  .botaoesquerda{
-    float: left;
-  }
+.botaoesquerda {
+  float: left;
+}
+
+.botaodireita {
+  float: right;
+}
+
+.botaoesquerda:hover,
+.botaodireita:hover {
+  background: #FFA7EC;
+  color: #490839;
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(255, 167, 236, 0.35);
+}
