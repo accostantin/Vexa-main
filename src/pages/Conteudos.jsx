@@ -39,8 +39,9 @@ function Conteudos({ favoritos = [], aoAlternarFavorito = () => {} }) {
   }, [categoria, filtroVisual, query, favoritos])
 
   return (
+    <div>
+      <Header />
     <main className="conteudos-page">
-        <Header />
 
       <header className="conteudos-header">
         <h1>Notícias</h1>
@@ -57,16 +58,16 @@ function Conteudos({ favoritos = [], aoAlternarFavorito = () => {} }) {
             categorias={categorias.filter((item) => item !== 'Todas')}
             valor={categoria}
             aoAlterar={setCategoria}
-          />
+            />
         </div>
 
         <div className="conteudos-visual-toggle" role="tablist" aria-label="Visualização">
           {OPCOES_VISUAIS.map((opcao) => (
             <button
-              key={opcao}
-              type="button"
-              className={filtroVisual === opcao ? 'conteudos-visual-button active' : 'conteudos-visual-button'}
-              onClick={() => setFiltroVisual(opcao)}
+            key={opcao}
+            type="button"
+            className={filtroVisual === opcao ? 'conteudos-visual-button active' : 'conteudos-visual-button'}
+            onClick={() => setFiltroVisual(opcao)}
             >
               {opcao}
             </button>
@@ -79,10 +80,11 @@ function Conteudos({ favoritos = [], aoAlternarFavorito = () => {} }) {
           conteudos={conteudosFiltrados}
           favoritos={favoritos}
           aoAlternarFavorito={aoAlternarFavorito}
-        />
+          />
       </section>
-      <Footer />
     </main>
+    <Footer />
+  </div>
   )
 }
 

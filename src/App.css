@@ -2002,4 +2002,183 @@ html {
   scroll-margin-top: 90px;
 }
 
+/* =================================
+   HEADER — CANAIS DE AJUDA
+================================= */
+
+.Header_Ajuda {
+  width: 100%;
+  background: #490839;
+  color: #fff;
+  font-family: 'Vexa-font', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Faixa superior */
+
+.Header_Ajuda-Aviso {
+  width: min(100% - 60px, 1120px);
+  min-height: 64px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.Header_Ajuda-Mensagem {
+  margin: 0;
+  color: #f4c7e8;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.Header_Ajuda-Mensagem strong {
+  color: #FFA7EC;
+  font-weight: 700;
+}
+
+.Header_Ajuda-Sair {
+  flex-shrink: 0;
+  padding: 10px 16px;
+
+  border: 1px solid #a94c94;
+  border-radius: 20px;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+
+  transition: 0.3s ease;
+}
+
+.Header_Ajuda-Sair:hover {
+  background: #CB1D85;
+  border-color: #CB1D85;
+}
+
+/* Faixa inferior */
+
+.Header_Ajuda-Container {
+  width: min(100% - 60px, 1120px);
+  min-height: 88px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  box-sizing: border-box;
+}
+
+.Header_Ajuda-Marca {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.Header_Ajuda-Titulo {
+  color: #FFA7EC;
+  font: 700 30px 'Vexa-font', sans-serif;
+  letter-spacing: 1px;
+}
+
+.botao-ajuda {
+  min-width: 125px;
+  min-height: 42px;
+  padding: 10px 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 20px;
+
+  background: linear-gradient(90deg, #e43bbd, #CB1D85);
+  color: white;
+
+  font-family: 'Vexa-font', sans-serif;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.botao-ajuda:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 8, 222, 0.35);
+}
+
+/* =================================
+   RESPONSIVIDADE — TABLETS
+================================= */
+
+@media (max-width: 768px) {
+
+  .Header_Ajuda-Aviso,
+  .Header_Ajuda-Container {
+    width: calc(100% - 36px);
+  }
+
+  .Header_Ajuda-Aviso {
+    gap: 14px;
+  }
+
+  .Header_Ajuda-Mensagem {
+    font-size: 13px;
+  }
+
+}
+
+/* =================================
+   RESPONSIVIDADE — MOBILE
+================================= */
+
+@media (max-width: 480px) {
+
+  .Header_Ajuda-Aviso {
+    padding: 16px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .Header_Ajuda-Mensagem {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .Header_Ajuda-Sair {
+    align-self: flex-start;
+    margin: 0;
+    padding: 9px 14px;
+    font-size: 11px;
+  }
+
+  .Header_Ajuda-Container {
+    min-height: 78px;
+    gap: 12px;
+  }
+
+  .Header_Ajuda-Titulo {
+    font-size: 25px;
+  }
+
+  .botao-ajuda {
+    min-width: 112px;
+    min-height: 40px;
+    padding: 9px 12px;
+    font-size: 10px;
+  }
+
+}
+
 
