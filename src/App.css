@@ -6,44 +6,6 @@
   font-display: swap;
 }
 
-/* =================================
-   SCROLLBAR GLOBAL — VEXA
-================================= */
-
-/* Chrome, Edge e Safari */
-::-webkit-scrollbar {
-  width: 11px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: #490839;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(
-    180deg,
-    #FFA7EC 0%,
-    #CB1D85 100%
-  );
-  border-radius: 20px;
-  border: 2px solid #490839;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #FFA7EC;
-}
-
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #CB1D85 #490839;
-}
-
-/* Rolagem suave */
-html {
-  scroll-behavior: smooth;
-}
-
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -60,46 +22,6 @@ html {
   
   font-family: 'Vexa-font', sans-serif;
   padding: 34px;
-}
-
-
-.sobre-Conteudos {
-  width: 100%;
-  max-width: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  overflow-x: clip;
-}
-
-
-.sobre-Conteudos .hero-sobre {
-  width: 100%;
-  max-width: 100%;
-  min-height: 100vh;
-  padding: 62px 30px 0;
-  box-sizing: border-box;
-  background-color: #323232;
-}
-
-.sobre-Conteudos .hero-sobre-conteudo {
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-
-.sobre-Conteudos .main-sobre-conteudo {
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-
-.sobre-Conteudos .fontes-conteudos {
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
 }
 
 .hero-sobre {
@@ -683,30 +605,11 @@ color: #cb1d85;
 }
 
 .card-roupa {
-  background: #242323;
+  background: #ffffff;
   border-radius: 28px;
   overflow: hidden;
-
-  /* Remove a borda */
-  border: none;
-  outline: none;
-
-  /* Sombra inicial */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-
-  /* Transição */
-  transition: 
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-/* Animação ao passar o mouse */
-.card-roupa:hover {
-  transform: translateY(-6px);
-
-  box-shadow: 
-    0 14px 28px rgba(0, 0, 0, 0.25),
-    0 0 12px rgba(255, 167, 236, 0.10);
+  box-shadow: 0 12px 24px rgba(76, 75, 71, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .capa-roupa {
