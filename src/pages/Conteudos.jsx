@@ -39,64 +39,50 @@ function Conteudos({ favoritos = [], aoAlternarFavorito = () => {} }) {
   }, [categoria, filtroVisual, query, favoritos])
 
   return (
-    <>
-      <main className="conteudos-page">
+    <main className="conteudos-page">
         <Header />
-  
-        <header className="conteudos-header">
-          <h1>Notícias</h1>
-          <div className="conteudos-underline"></div>
-        </header>
-  
-        <section
-          className="conteudos-toolbar"
-          aria-label="Filtro de conteúdos"
-        >
-          <div className="conteudos-search-wrap">
-            <SearchConteudos value={query} onChange={setQuery} />
-          </div>
-  
-          <div className="conteudos-select-wrap">
-            <FiltroCategoria
-              categorias={categorias.filter((item) => item !== 'Todas')}
-              valor={categoria}
-              aoAlterar={setCategoria}
-            />
-          </div>
-  
-          <div
-            className="conteudos-visual-toggle"
-            role="tablist"
-            aria-label="Visualização"
-          >
-            {OPCOES_VISUAIS.map((opcao) => (
-              <button
-                key={opcao}
-                type="button"
-                className={
-                  filtroVisual === opcao
-                    ? 'conteudos-visual-button active'
-                    : 'conteudos-visual-button'
-                }
-                onClick={() => setFiltroVisual(opcao)}
-              >
-                {opcao}
-              </button>
-            ))}
-          </div>
-        </section>
-  
-        <section className="conteudos-grid">
-          <ListaConteudo
-            conteudos={conteudosFiltrados}
-            favoritos={favoritos}
-            aoAlternarFavorito={aoAlternarFavorito}
+
+      <header className="conteudos-header">
+        <h1>Notícias</h1>
+        <div className="conteudos-underline"></div>
+      </header>
+
+      <section className="conteudos-toolbar" aria-label="Filtro de conteúdos">
+        <div className="conteudos-search-wrap">
+          <SearchConteudos value={query} onChange={setQuery} />
+        </div>
+
+        <div className="conteudos-select-wrap">
+          <FiltroCategoria
+            categorias={categorias.filter((item) => item !== 'Todas')}
+            valor={categoria}
+            aoAlterar={setCategoria}
           />
-        </section>
-      </main>
-  
+        </div>
+
+        <div className="conteudos-visual-toggle" role="tablist" aria-label="Visualização">
+          {OPCOES_VISUAIS.map((opcao) => (
+            <button
+              key={opcao}
+              type="button"
+              className={filtroVisual === opcao ? 'conteudos-visual-button active' : 'conteudos-visual-button'}
+              onClick={() => setFiltroVisual(opcao)}
+            >
+              {opcao}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section className="conteudos-grid">
+        <ListaConteudo
+          conteudos={conteudosFiltrados}
+          favoritos={favoritos}
+          aoAlternarFavorito={aoAlternarFavorito}
+        />
+      </section>
       <Footer />
-    </>
+    </main>
   )
 }
 

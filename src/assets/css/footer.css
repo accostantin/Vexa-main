@@ -1,6 +1,5 @@
-
-/* FOOTER */
 .footer {
+
   width: 100%;
   min-height: 100px;
   background-color: #490839;
@@ -10,18 +9,19 @@
   flex-direction: column;
   align-items: center;
 
-  padding: 30px 20px 20px;
-  gap: 0;
+  padding: 50px 20px 30px;
 
   font-family: 'Vexa-font', sans-serif;
+
   box-sizing: border-box;
 }
 
 /* LOGO */
+
 .footer-logo {
   font-size: 36px;
   font-weight: bold;
-  margin: 0 0 20px;
+  margin-bottom: 28px;
   letter-spacing: -1px;
 }
 
@@ -31,20 +31,26 @@
   margin-left: 3px;
 }
 
+
 /* LINKS */
+
 .footer-links {
   display: flex;
   justify-content: center;
   align-items: center;
+
   gap: 25px;
-  margin-bottom: 20px;
+
+  margin-bottom: 32px;
 }
 
 .footer-links a {
   color: #ffffff;
   text-decoration: none;
+
   font-size: 11px;
   font-weight: 400;
+
   transition: opacity 0.2s ease;
 }
 
@@ -52,17 +58,21 @@
   opacity: 0.6;
 }
 
+
 /* REDES SOCIAIS */
+
 .footer-social {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+
   gap: 14px;
-  margin: 0 0 24px;
+
+  margin-bottom: 50px;
 }
 
 .social-icon {
+  margin-top: 20px;
   width: 32px;
   height: 32px;
   border: 2px solid #CB1D85;
@@ -75,6 +85,7 @@
   justify-content: center;
 
   text-decoration: none;
+
   font-family: Arial, sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -86,10 +97,14 @@
   transform: scale(1.1);
 }
 
+
 /* BOTÃO DE IDIOMA */
+
 .language-button {
   height: 34px;
+  margin-top: 20px;
   padding: 0 18px;
+
   margin-left: 16px;
 
   border: 2px solid #CB1D85;
@@ -100,48 +115,19 @@
 
   font-family: 'Vexa-font', sans-serif;
   font-size: 12px;
+
   cursor: pointer;
 }
 
 .language-button:hover {
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(26, 26, 26);;
   color: #FFA7EC;
 }
 
+
 /* COPYRIGHT */
+
 .footer-bottom {
   font-size: 12px;
   text-align: center;
-  margin: 0;
-}
-
-/* RESPONSIVIDADE */
-@media (max-width: 600px) {
-  .footer {
-    padding: 25px 15px 18px;
-  }
-
-  .footer-logo {
-    font-size: 30px;
-    margin-bottom: 18px;
-  }
-
-  .footer-social {
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .social-icon {
-    width: 30px;
-    height: 30px;
-  }
-
-  .language-button {
-    margin-left: 8px;
-    padding: 0 12px;
-  }
-
-  .footer-bottom {
-    font-size: 10px;
-  }
 }

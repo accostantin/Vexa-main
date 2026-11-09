@@ -1,27 +1,24 @@
-
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import ButtonLadoA from './ButtonLadoA.jsx';
 import Menu from './menu.jsx';
 import Sidebar from './sidebar.jsx';
 
+
 function Header({ onMenuClick }) {
+
+  // Páginas que já controlam o próprio Sidebar (ex.: Lado A) passam onMenuClick.
+  // As demais (Notícias, Dashboard, Conteúdos) usam o menu embutido aqui.
   const [menuAberto, setMenuAberto] = useState(false);
 
   return (
     <>
       <header className="header">
 
-        <div className="header-topo">
-          <Menu
-            onMenuClick={onMenuClick ?? (() => setMenuAberto(true))}
-          />
+        <Menu onMenuClick={onMenuClick ?? (() => setMenuAberto(true))} />
 
-          <div className="logo">
-            <h1 className="titulo">VEXA</h1>
-          </div>
-
-          <ButtonLadoA />
+        <div className="logo">
+          <h1 className="titulo">VEXA</h1>
         </div>
 
         <nav>
@@ -30,6 +27,8 @@ function Header({ onMenuClick }) {
           <NavLink to="/sobreConteudos">Conteúdos</NavLink>
           <NavLink to="/lado-a#contato">Contato</NavLink>
         </nav>
+
+        <ButtonLadoA />
 
       </header>
 
