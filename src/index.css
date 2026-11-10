@@ -8,9 +8,6 @@
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
-  /* O site só tem tema claro. Antes, o bloco prefers-color-scheme do template Vite
-     escurecia o fundo e as cores de texto padrão para quem usa o SO em modo escuro,
-     deixando títulos ilegíveis sobre seções brancas. */
   color-scheme: light;
   color: var(--text);
   background: var(--bg);
@@ -28,9 +25,6 @@ body {
   margin: 0;
 }
 
-/* Antes (template Vite): width: 1126px; margin: 0 auto; border-inline: 1px solid var(--border);
-   Isso encolhia o site numa coluna de 1126px com bordas laterais, abaixo dos max-width
-   (1220px/1500px) definidos nas próprias seções. Para reverter, restaure essas 3 linhas. */
 #root {
   width: 100%;
   text-align: center;

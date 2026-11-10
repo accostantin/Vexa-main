@@ -7,16 +7,6 @@
 
 }
 
-
-/* =================================
-
-   SCROLLBAR GLOBAL — VEXA
-
-================================= */
-
-
-/* Chrome, Edge e Safari */
-
 *::-webkit-scrollbar {
 
   width: 11px;
@@ -57,7 +47,6 @@
 }
 
 
-/* Firefox */
 
 * {
 
@@ -67,8 +56,6 @@
 
 }
 
-
-/* Rolagem suave */
 
 html {
 
