@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import ButtonLadoA from './ButtonLadoA.jsx';
-import Menu from './menu.jsx';
-import Sidebar from './sidebar.jsx';
+import Menu from './Menu.jsx';
+import Sidebar from './Sidebar.jsx';
 
 
 function Header({ onMenuClick }) {

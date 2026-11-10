@@ -1,11 +1,11 @@
 import { useMemo, useState } from 'react'
-import Header2 from '../components/header2.jsx'
+import Header2 from '../components/Header2.jsx'
 import Carrossel2 from '../components/Carrossel2.jsx'
 import SearchBarB from '../components/SearchBarB.jsx'
 import FiltroCategoria from '../components/FiltroCategoria.jsx'
 import ListaRoupa from '../components/ListaRoupa.jsx'
-import roupasData from '../data/roupas.json'
-import Footer from '../components/footer.jsx'
+import roupasData from '../data/Roupas.json'
+import Footer from '../components/Footer.jsx'
 
 const OPCOES_VISUAIS = ['Todos', 'Favoritos']
 

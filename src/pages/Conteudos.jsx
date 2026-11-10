@@ -4,8 +4,8 @@ import SearchConteudos from '../components/SearchConteudos.jsx'
 import FiltroCategoria from '../components/FiltroCategoria.jsx'
 import conteudosData from '../data/conteudos.json'
 import ListaConteudo from '../components/ListaConteudo.jsx'
-import Header from '../components/header.jsx'
-import Footer from '../components/footer.jsx'
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
 
 const OPCOES_VISUAIS = ['Todos', 'Favoritos']
 

@@ -1,7 +1,7 @@
-import Header2 from '../components/header2.jsx'
+import Header2 from '../components/Header2.jsx'
 
 
-function LadoBSobre() {
+function LadoBAcessorios() {
   return (
     <div className="lado-b-page">
       <Header2 />
@@ -11,4 +11,4 @@ function LadoBSobre() {
   )
 }
 
-export default LadoBSobre
+export default LadoBAcessorios

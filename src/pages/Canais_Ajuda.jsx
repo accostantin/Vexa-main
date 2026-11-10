@@ -3,7 +3,7 @@ import Hero_Ajuda from '../components/HeroAjuda.jsx'
 import MainAjuda from '../components/MainAjuda.jsx'
 import Diretorio from '../components/Diretorio.jsx'
 import Protecao  from '../components/Protecao.jsx'
-import Footer from '../components/footer.jsx'
+import Footer from '../components/Footer.jsx'
 
 import '../App.css'
 

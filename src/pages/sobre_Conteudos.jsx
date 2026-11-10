@@ -1,8 +1,8 @@
 
-import Header2 from "../components/header.jsx";
+import Header2 from "../components/Header.jsx";
 import HeroSobre from "../components/HeroSobre.jsx";
 import MainSobre from "../components/MainSobre.jsx";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/Footer.jsx";
 
 function SobreConteudos() {
   return (

@@ -1,4 +1,4 @@
-import Header2 from '../components/header2.jsx'
+import Header2 from '../components/Header2.jsx'
 
 function LadoBNovaColecao() {
   return (

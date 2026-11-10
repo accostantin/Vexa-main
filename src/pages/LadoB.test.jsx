@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { renderRota } from '../test/renderApp.jsx'
-import LadoB from './ladob.jsx'
+import LadoB from './Lado_b.jsx'
 import roupas from '../data/roupas.json'
 
 const cards = () => document.querySelectorAll('.card-roupa')

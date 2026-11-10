@@ -1,14 +1,14 @@
-import Header2 from '../components/header2.jsx'
+import Header2 from '../components/Header2.jsx'
 
-function LadoBContato() {
+
+function LadoBSobre() {
   return (
     <div className="lado-b-page">
       <Header2 />
       <main style={{ padding: '20px' }}>
-
       </main>
     </div>
   )
 }
 
-export default LadoBContato
+export default LadoBSobre
